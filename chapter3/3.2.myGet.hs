@@ -3,5 +3,4 @@ myGet::[a]->Int->a
 myGet (x:xs) 0 = x
 myGet (x:xs) n = myGet xs (n-1)
 
-main = do
-    print( myGet [1,2,3] 1)
+main = print( myGet [1,2,3] 1)

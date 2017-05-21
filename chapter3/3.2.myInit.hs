@@ -3,5 +3,4 @@ myInit [] = error "..."
 myInit [x] = []
 myInit (x:xs) = x : myInit xs
 
-main = do
-    print( myInit [1,2,3])
+main = print( myInit [1,2,3])

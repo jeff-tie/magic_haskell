@@ -4,5 +4,4 @@ listA = [1,2,3,4]
 
 foo (a:c) = c
 
-main = do
-    print(foo listA)
+main = print(foo listA)
